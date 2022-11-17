@@ -4,7 +4,7 @@ import pandas
 
 
 root = Tk()
-
+root.title("IBNR-Finder")
 empty_link = "https://iris.noncd.db.de/wbt/js/index.html?bhf="
 
 def check(e):
