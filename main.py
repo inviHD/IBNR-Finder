@@ -35,7 +35,7 @@ def read_data():
     ibnr = list(df.iloc[:,idx_of_ibnr])
     idx_of_train_station = 2-1
     train_stations = list(df.iloc[:,idx_of_train_station])
-
+    
 
 def open_link():
     c = menu.get(menu.curselection())
